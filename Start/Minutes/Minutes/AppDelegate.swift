@@ -1,7 +1,4 @@
 import UIKit
-import AppCenter
-import AppCenterAnalytics
-import AppCenterCrashes
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate
@@ -11,10 +8,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        MSAppCenter.start("1df458b7-9ec4-4172-bb20-48268ea807e7", withServices:[
-            MSAnalytics.self,
-            MSCrashes.self
-            ])
+
         return true
     }
 

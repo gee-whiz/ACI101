@@ -6,7 +6,5 @@ target 'Minutes' do
   use_frameworks!
 
   # Pods for Minutes
-  pod 'AppCenter'
-
 
 end
