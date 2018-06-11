@@ -22,6 +22,7 @@ class EntriesTableViewController: UITableViewController
         formatter.dateFormat = "MMM d, yyyy @h:mm a"
         let dateString = formatter.string(from: entry.createdDate)
 
+        //
         cell.textLabel?.text = entry.title
         cell.detailTextLabel?.text = dateString
         
