@@ -130,7 +130,7 @@
 				TargetAttributes = {
 					D3048F23202E2B2D00D45D7E = {
 						CreatedOnToolsVersion = 9.2;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -333,12 +333,15 @@
 			baseConfigurationReference = CA3237D940BD4041185EDC38 /* Pods-Minutes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ECA Internet (PTY) LTD";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XG8766C4Q9;
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.immedia.minutes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b3f2012-8ab8-441c-bb0a-6d3901716db0";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -349,12 +352,15 @@
 			baseConfigurationReference = 0D979F8D8334CBB2D8B2670A /* Pods-Minutes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ECA Internet (PTY) LTD";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = XG8766C4Q9;
 				INFOPLIST_FILE = Minutes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = co.immedia.minutes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b3f2012-8ab8-441c-bb0a-6d3901716db0";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
