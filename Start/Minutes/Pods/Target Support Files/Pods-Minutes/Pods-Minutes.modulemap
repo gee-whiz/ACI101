@@ -1,0 +1,6 @@
+framework module Pods_Minutes {
+  umbrella header "Pods-Minutes-umbrella.h"
+
+  export *
+  module * { export * }
+}
