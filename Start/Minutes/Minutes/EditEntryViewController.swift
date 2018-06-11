@@ -17,7 +17,7 @@ class EditEntryViewController: UIViewController
         if entry == nil
         {
             entry = Entry()
-            self.title = "Add New Entry"
+            self.title = "Add New Entry "
         }
         
         titleTextField.text = entry?.title
